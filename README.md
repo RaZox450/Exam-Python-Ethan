@@ -34,3 +34,5 @@ Les tests utilisent une base SQLite en mémoire, distincte de celle de l'applica
 | GET | `/stations?status=open` | Liste, filtre optionnel |
 | GET | `/stations/{id}` | Lecture (404 si inconnue) |
 | PATCH | `/stations/{id}` | Modifie `name` et/ou `status` uniquement |
+
+> PS : L'exercice 4 a été fait à l'IA car beaucoup trop dur, on n'a jamais vu ça.
