@@ -2,18 +2,18 @@
 
 ## Exercice 1
 
-> Question 1 : Une route GET /stations crée une station. Quel verbe et quel code HTTP faut-il utiliser pour cette création ?
+__Question 1__ : Une route GET /stations crée une station. Quel verbe et quel code HTTP faut-il utiliser pour cette création ?
 
-__Réponse 1__ : POST, 201 Créé
+> Réponse 1 : POST, 201 Créé
 
-> Question 2 : GET /stations/999 demande une station inexistante. Quel code HTTP et quel type de réponse faut-il
+__Question 2__ : GET /stations/999 demande une station inexistante. Quel code HTTP et quel type de réponse faut-il
 renvoyer ?
 
-__Réponse 2__ : GET, 404 Non trouvé
+> Réponse 2 : GET, 404 Non trouvé
 
-> Question 3 : Quelle est la différence entre les codes 401 et 403 ? Donnez un exemple de chaque cas.
+__Question 3__ : Quelle est la différence entre les codes 401 et 403 ? Donnez un exemple de chaque cas.
 
-__Réponse 3__ : Le code 401 signifie "Non autorisé" et est utilisé lorsque l'utilisateur n'est pas authentifié. Le code 403 signifie "Accès refusé" et est utilisé lorsque l'utilisateur est authentifié mais n'a pas la permission d'accéder à la ressource. Exemple de 401 : tentative d'accès à une ressource protégée sans s'authentifier. Exemple de 403 : utilisateur authentifié mais sans droits d'accès à la ressource.
+> Réponse 3 : Le code 401 signifie "Non autorisé" et c'est utilisé lorsque l'utilisateur n'est pas authentifié. Le code 403 signifie "Accès refusé" et c'est utilisé lorsque l'utilisateur est authentifié mais n'a pas la permission d'accéder à la ressource. Exemple de 401 : tentative d'accès à une ressource protégée sans s'authentifier. Exemple de 403 : utilisateur authentifié mais sans droits d'accès à la ressource.
 
 ## Exercice 3 - Persistance
 
