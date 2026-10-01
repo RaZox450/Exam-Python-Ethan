@@ -35,4 +35,4 @@ Les tests utilisent une base SQLite en mémoire, distincte de celle de l'applica
 | GET | `/stations/{id}` | Lecture (404 si inconnue) |
 | PATCH | `/stations/{id}` | Modifie `name` et/ou `status` uniquement |
 
-> PS : L'exercice 4 a été fait à l'IA car beaucoup trop dur, on n'a jamais vu ça.
+> PS : L'exercice 4 a été fait avec l'aide de l'IA car beaucoup trop dur, on n'a jamais vu ça.
